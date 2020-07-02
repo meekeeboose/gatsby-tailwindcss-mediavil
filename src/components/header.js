@@ -14,10 +14,10 @@ function Header() {
   `);
 
   return (
-    <header className="bg-teal-700" style={{ backgroundColor: "#574b90" }}>
+    <header style={{ backgroundColor: "#574b90" }}>
       <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:p-8">
         <Link to="/">
-          <h1 className="flex items-center text-white no-underline">
+          <h1 className="text-2xl flex items-center text-white no-underline">
             {site.siteMetadata.title}
           </h1>
         </Link>

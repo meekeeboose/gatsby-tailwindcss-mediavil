@@ -48,12 +48,13 @@ function ServicesPage() {
                     </div>
                     <div className="ml-4">
                       <h4 className="text-base leading-6 text-indigo-600 font-semibold tracking-wide">
-                        Blazing fast
+                        Web Development
                       </h4>
                       <p className="mt-2 text-base leading-6 text-gray-700">
-                        Pre-build pages and lift them into a global cloud of
-                        servers — ready to be delivered instantly to your users
-                        wherever they are.
+                        We create amazing online experiences that help
+                        businesses grow. Our websites are designed custom,
+                        responsive, made for scalability and are catered to any
+                        needs.
                       </p>
                     </div>
                   </div>
@@ -141,12 +142,12 @@ function ServicesPage() {
                     </div>
                     <div className="ml-4">
                       <h4 className="text-base leading-6 text-indigo-600 font-semibold tracking-wide">
-                        Future-proof
+                        Digital Marketing
                       </h4>
                       <p className="mt-2 text-base leading-6 text-gray-700">
-                        Do not build a website with last decade’s tech. The
-                        future of the web is mobile, JavaScript and APIs. Every
-                        website is a web app and every web app is a website.
+                        We help you bring your website in the first page of
+                        Google Search Engine, increase your website traffic, and
+                        bring more customers to your business.
                       </p>
                     </div>
                   </div>
