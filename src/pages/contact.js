@@ -24,7 +24,7 @@ function ContactPage() {
             className="block mb-2 text-xs font-bold uppercase"
             htmlFor="first-name"
           >
-            First Name
+            Your Name
           </label>
 
           <input
@@ -32,21 +32,23 @@ function ContactPage() {
             id="first-name"
             placeholder="Bill"
             type="text"
+            required
           />
 
           <label
             className="block mb-2 text-xs font-bold uppercase"
-            htmlFor="last-name"
+            htmlFor="email"
           >
             Your email
           </label>
 
           <input
             className="w-full mb-6 form-input"
-            id="last-name"
+            id="email"
             placeholder="bill@email.com"
-            type="text"
+            type="email"
             name="_replyto"
+            required
           />
 
           <label
@@ -62,6 +64,7 @@ function ContactPage() {
             placeholder="Say something..."
             rows="8"
             name="message"
+            required
           />
 
           <button
