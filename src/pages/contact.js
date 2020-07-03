@@ -30,7 +30,7 @@ function ContactPage() {
           <input
             className="w-full mb-6 form-input bg-indigo-100"
             id="first-name"
-            placeholder="Bill"
+            placeholder="Julie Ann"
             type="text"
             required
           />
@@ -45,7 +45,7 @@ function ContactPage() {
           <input
             className="w-full mb-6 form-input bg-indigo-100"
             id="email"
-            placeholder="bill@email.com"
+            placeholder="julieann@email.com"
             type="email"
             name="_replyto"
             required
@@ -61,7 +61,7 @@ function ContactPage() {
           <textarea
             className="w-full mb-6 form-textarea bg-indigo-100"
             id="message"
-            placeholder="Say something..."
+            placeholder="Tell us what you need..."
             rows="8"
             name="message"
             required
