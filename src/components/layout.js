@@ -12,7 +12,7 @@ function Layout({ children }) {
         {children}
       </main>
 
-      <footer style={{ backgroundColor: "#574b90" }}>
+      <footer className="bg-indigo-800">
         <nav className="flex justify-between max-w-4xl p-4 mx-auto text-sm md:p-8">
           <p className="text-white">Blazing Fast Websites</p>
           <p className="text-white">&copy; 2020</p>

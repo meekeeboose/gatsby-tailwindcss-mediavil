@@ -14,7 +14,7 @@ function Header() {
   `);
 
   return (
-    <header style={{ backgroundColor: "#574b90" }}>
+    <header className="bg-indigo-800">
       <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:p-8">
         <Link to="/">
           <h1 className="text-2xl flex items-center text-white no-underline">
@@ -39,7 +39,7 @@ function Header() {
         <nav
           className={`${
             isExpanded ? `block` : `hidden`
-          } md:block md:flex md:items-center w-full md:w-auto`}
+          } md:block md:flex md:items-center w-full md:w-auto `}
         >
           {[
             {
@@ -56,7 +56,7 @@ function Header() {
             },
           ].map((link) => (
             <Link
-              className="block mt-4 text-white no-underline md:inline-block md:mt-0 md:ml-6"
+              className="block mt-4 text-white no-underline md:inline-block md:mt-0 md:ml-6 hover:text-indigo-500"
               key={link.title}
               to={link.route}
             >

@@ -20,7 +20,7 @@ function IndexPage() {
           src={catAndHumanIllustration}
         />
         <div>
-          <h1 className="inline-block p-3 mb-4 text-2xl text-white font-bold bg-purple-700 rounded-lg">
+          <h1 className="inline-block p-3 mb-4 text-2xl text-white font-bold bg-indigo-800 rounded-lg">
             Web Development Dumaguete
           </h1>
         </div>

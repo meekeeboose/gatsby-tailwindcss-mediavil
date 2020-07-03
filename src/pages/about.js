@@ -14,7 +14,7 @@ function AboutPage() {
 
       <section className="flex flex-col items-center md:flex-row">
         <div className="md:w-2/3 md:mr-8">
-          <blockquote className="pl-4  leading-loose text-justify border-l-4 border-gray-900">
+          <blockquote className="pl-4  leading-loose text-justify border-l-4 border-gray-900 text-indigo-800 ">
             Professional and dedicated team committed to establish excellence in
             all areas of Web design, development and digital marketing. We see
             to it that our services meet your expectations.

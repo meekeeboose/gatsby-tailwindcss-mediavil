@@ -28,7 +28,7 @@ function ContactPage() {
           </label>
 
           <input
-            className="w-full mb-6 form-input"
+            className="w-full mb-6 form-input bg-indigo-100"
             id="first-name"
             placeholder="Bill"
             type="text"
@@ -43,7 +43,7 @@ function ContactPage() {
           </label>
 
           <input
-            className="w-full mb-6 form-input"
+            className="w-full mb-6 form-input bg-indigo-100"
             id="email"
             placeholder="bill@email.com"
             type="email"
@@ -59,7 +59,7 @@ function ContactPage() {
           </label>
 
           <textarea
-            className="w-full mb-6 form-textarea"
+            className="w-full mb-6 form-textarea bg-indigo-100"
             id="message"
             placeholder="Say something..."
             rows="8"
@@ -68,7 +68,7 @@ function ContactPage() {
           />
 
           <button
-            className="px-4 py-2 text-sm  text-white bg-indigo-700 border-b-4 border-gray-800 rounded hover:border-gray-700 hover:bg-gray-600"
+            className="px-4 py-2 text-sm  text-white bg-indigo-700 border-b-4 border-gray-800 rounded hover:border-gray-700 hover:bg-indigo-900"
             type="submit"
           >
             Submit
