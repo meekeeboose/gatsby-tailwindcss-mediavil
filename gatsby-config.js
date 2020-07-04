@@ -37,12 +37,5 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-    {
-      resolve: `gatsby-plugin-tawk`,
-      options: {
-        tawkId: "https://embed.tawk.to/5effe9b4760b2b560e6fb6c9/default",
-        // get this from the tawk script widget
-      },
-    },
   ],
 };
