@@ -7,7 +7,7 @@ function ServicesPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[`mediavil`, `website development`, `dumaguete`, `services page`]}
         title="Services"
       />
       <div>

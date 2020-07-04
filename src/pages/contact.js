@@ -7,7 +7,12 @@ function ContactPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[
+          `mediavil`,
+          `website development`,
+          `dumaguete`,
+          `contact page`,
+        ]}
         title="Contact"
       />
       <section>

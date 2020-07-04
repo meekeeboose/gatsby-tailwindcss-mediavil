@@ -9,7 +9,12 @@ function AboutPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[
+          `mediavil`,
+          `website development`,
+          `dumaguete`,
+          `about page`,
+        ]}
         title="About"
       />
 
@@ -38,9 +43,7 @@ function AboutPage() {
           <h2 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
             Ready to dive in?
             <br />
-            <span className="text-indigo-600">
-              Start your free trial today.
-            </span>
+            <span className="text-indigo-600">Start today.</span>
           </h2>
           <div className="mt-8 flex lg:flex-shrink-0 lg:mt-0">
             <div className="inline-flex rounded-md shadow">
