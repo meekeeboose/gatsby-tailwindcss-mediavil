@@ -7,9 +7,22 @@ function ServicesPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`mediavil`, `website development`, `dumaguete`, `services page`]}
+        keywords={[
+          `mediavil`,
+          `website development`,
+          `dumaguete`,
+          `services page`,
+        ]}
         title="Services"
       />
+
+      <div className="max-w-2xl mx-auto">
+        <img
+          src="https://image.freepik.com/free-vector/digital-marketing-team_41910-363.jpg"
+          alt="people doing digital marketing"
+        />
+      </div>
+
       <div>
         <div className=" bg-white">
           <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">

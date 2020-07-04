@@ -15,6 +15,14 @@ function ContactPage() {
         ]}
         title="Contact"
       />
+
+      <div className="max-w-2xl mx-auto">
+        <img
+          src="https://image.freepik.com/free-vector/digital-marketing-illustration_1893-2527.jpg"
+          alt="two people working"
+        />
+      </div>
+
       <section>
         <form
           className="mx-auto md:w-1/2"
