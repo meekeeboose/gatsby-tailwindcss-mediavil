@@ -9,3 +9,20 @@
 * {
   font-family: "Montserrat", sans-serif;
 }
+
+html {
+  background: url("../images/hero.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* 
+body {
+  background: url("https://images.unsplash.com/photo-1552525892-bed17eb33e0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
