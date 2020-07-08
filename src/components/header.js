@@ -15,7 +15,7 @@ function Header() {
 
   return (
     <header className="bg-indigo-800">
-      <div className="flex flex-wrap items-center justify-between max-w-6xl p-4 mx-auto md:p-4">
+      <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:p-8">
         <Link to="/">
           <h1 className="text-2xl flex items-center text-white no-underline">
             {site.siteMetadata.title}
@@ -23,7 +23,7 @@ function Header() {
         </Link>
 
         <button
-          className="flex items-center block px-3 py-2 text-white border border-white rounded md:hidden"
+          className="flex items-center  px-3 py-2 text-white border border-white rounded md:hidden"
           onClick={() => toggleExpansion(!isExpanded)}
         >
           <svg
@@ -39,7 +39,7 @@ function Header() {
         <nav
           className={`${
             isExpanded ? `block` : `hidden`
-          } md:block md:flex md:items-center w-full md:w-auto `}
+          }  md:flex md:items-center w-full md:w-auto `}
         >
           {[
             {

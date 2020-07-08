@@ -16,20 +16,13 @@ function ContactPage() {
         title="Contact"
       />
 
-      <div className="max-w-2xl mx-auto">
-        <img
-          src="https://image.freepik.com/free-vector/digital-marketing-illustration_1893-2527.jpg"
-          alt="two people working"
-        />
-      </div>
-
       <section>
         <form
           className="mx-auto md:w-1/2"
           action="https://formspree.io/mqkybokb"
           method="POST"
         >
-          <h2 className="mb-8 text-base leading-6 text-indigo-600 font-semibold tracking-wide">
+          <h2 className="mb-8 text-base leading-6 text-indigo-700 font-semibold tracking-wide">
             Request a quote from us.
           </h2>
 
@@ -43,7 +36,7 @@ function ContactPage() {
           <input
             className="w-full mb-6 form-input bg-indigo-100"
             id="first-name"
-            placeholder="Julie Ann"
+            placeholder="Julie"
             type="text"
             required
           />
@@ -58,7 +51,7 @@ function ContactPage() {
           <input
             className="w-full mb-6 form-input bg-indigo-100"
             id="email"
-            placeholder="julieann@email.com"
+            placeholder="julie@mail.com"
             type="email"
             name="_replyto"
             required
