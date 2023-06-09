@@ -4,7 +4,7 @@
   "version": "4.0.0",
   "author": "Mediavil <info@mediavil.com>",
   "dependencies": {
-    "gatsby": "2.23.11",
+    "gatsby": "4.25.7",
     "gatsby-plugin-manifest": "2.4.14",
     "gatsby-plugin-offline": "3.2.13",
     "gatsby-plugin-postcss": "2.3.6",
